@@ -1,0 +1,34 @@
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Test and tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local run outputs
+outputs/
+output/
+results/
+runs/
+checkpoints/
+logs/
+*.log
+*.tmp
+
+# Large/generated archives
+bladed-sync-*.zip
+*.zip
+
+# Local-only remote overrides
+remote.config.local.ps1
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
