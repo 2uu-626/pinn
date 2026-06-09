@@ -17,6 +17,12 @@ results/
 runs/
 checkpoints/
 logs/
+rotating_demo_output/
+steady_output/
+*.gif
+*.pt
+*.pth
+*.pickle
 *.log
 *.tmp
 
